@@ -26,6 +26,7 @@
     "@solana/buffer-layout": "^4.0.0",
     "@solana/buffer-layout-utils": "^0.2.0",
     "@solana/web3.js": "^1.62.0",
+    "axios": "^0.27.2",
     "bs58": "^5.0.0",
     "dotenv": "^16.0.2",
     "node-schedule": "^2.1.0"
