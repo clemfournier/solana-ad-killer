@@ -1,0 +1,33 @@
+{
+  "name": "solana-ad-killer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clemfournier/solana-ad-killer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clemfournier/solana-ad-killer/issues"
+  },
+  "homepage": "https://github.com/clemfournier/solana-ad-killer#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@solana/buffer-layout": "^4.0.0",
+    "@solana/buffer-layout-utils": "^0.2.0",
+    "@solana/web3.js": "^1.62.0",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.0.2",
+    "node-schedule": "^2.1.0"
+  }
+}
